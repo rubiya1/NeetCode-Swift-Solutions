@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8D20D2422D0ABAA500A790FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20D2412D0ABAA500A790FB /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		8D20D23C2D0ABAA500A790FB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		8D20D23E2D0ABAA500A790FB /* Neetcode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Neetcode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D20D2412D0ABAA500A790FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +49,7 @@
 		8D20D2352D0ABAA500A790FB = {
 			isa = PBXGroup;
 			children = (
+				8D20D2412D0ABAA500A790FB /* main.swift */,
 				8D20D2402D0ABAA500A790FB /* Neetcode-Swift */,
 				8D20D23F2D0ABAA500A790FB /* Products */,
 			);
@@ -121,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D20D2422D0ABAA500A790FB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
