@@ -28,9 +28,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8D20D2402D0ABAA500A790FB /* Neetcode-Swift */ = {
+		8D20D2402D0ABAA500A790FB /* Array & Hashing */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Neetcode-Swift";
+			path = "Array & Hashing";
+			sourceTree = "<group>";
+		};
+		8D20D27A2D0CEEA600A790FB /* Two Pointers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Two Pointers";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -50,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				8D20D2412D0ABAA500A790FB /* main.swift */,
-				8D20D2402D0ABAA500A790FB /* Neetcode-Swift */,
+				8D20D27A2D0CEEA600A790FB /* Two Pointers */,
+				8D20D2402D0ABAA500A790FB /* Array & Hashing */,
 				8D20D23F2D0ABAA500A790FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,7 +85,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8D20D2402D0ABAA500A790FB /* Neetcode-Swift */,
+				8D20D2402D0ABAA500A790FB /* Array & Hashing */,
+				8D20D27A2D0CEEA600A790FB /* Two Pointers */,
 			);
 			name = "Neetcode-Swift";
 			packageProductDependencies = (

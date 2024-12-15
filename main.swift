@@ -40,3 +40,18 @@ print(validSudoku([["8","3",".",".","7",".",".",".","."]
 
 // Longest Consecutive Sequence
 print(longestConsecutiveSequence([0,3,7,2,5,8,4,6,0,1]))
+
+// Valid Palindrome
+print(isPalindrome("A man, a plan, a canal: Panama"))
+
+// Two Integer Sum II
+print(twoSumSortedArray([5,25,75], 100))
+
+// 3Sum
+print(threeSum([-1,0,1,2,-1,-4]))
+
+// Container With Most Water
+print(maxArea([1,7,2,5,4,7,3,6]))
+
+// Trapping Rain Water
+print(trappingRainWater([0,1,0,2,1,0,1,3,2,1,2,1]))
