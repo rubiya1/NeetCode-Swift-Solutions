@@ -38,6 +38,11 @@
 			path = "Two Pointers";
 			sourceTree = "<group>";
 		};
+		8D20D3E92D0F1A9F00A790FB /* Stacks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Stacks;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				8D20D2412D0ABAA500A790FB /* main.swift */,
+				8D20D3E92D0F1A9F00A790FB /* Stacks */,
 				8D20D27A2D0CEEA600A790FB /* Two Pointers */,
 				8D20D2402D0ABAA500A790FB /* Array & Hashing */,
 				8D20D23F2D0ABAA500A790FB /* Products */,
@@ -87,6 +93,7 @@
 			fileSystemSynchronizedGroups = (
 				8D20D2402D0ABAA500A790FB /* Array & Hashing */,
 				8D20D27A2D0CEEA600A790FB /* Two Pointers */,
+				8D20D3E92D0F1A9F00A790FB /* Stacks */,
 			);
 			name = "Neetcode-Swift";
 			packageProductDependencies = (

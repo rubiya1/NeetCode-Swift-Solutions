@@ -55,3 +55,12 @@ print(maxArea([1,7,2,5,4,7,3,6]))
 
 // Trapping Rain Water
 print(trappingRainWater([0,1,0,2,1,0,1,3,2,1,2,1]))
+
+// Valid Parentheses
+print(isvalidParentheses("[(])"))
+
+// Evaluate Reverse Polish Notation
+print(evalRPN(["10","6","9","3","+","-11","*","/","*","17","+","5","+"]))
+
+// Generate Parentheses
+print(generateParentheses(3))
