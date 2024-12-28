@@ -43,6 +43,26 @@
 			path = Stacks;
 			sourceTree = "<group>";
 		};
+		8D20D62C2D18112600A790FB /* Binary Search */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Binary Search";
+			sourceTree = "<group>";
+		};
+		8D20D63D2D1A82C100A790FB /* Sliding Window */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sliding Window";
+			sourceTree = "<group>";
+		};
+		8D20D64A2D1BBAAA00A790FB /* Linked List */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		8D20D6632D1EDC2100A790FB /* Trees */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Trees;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				8D20D2412D0ABAA500A790FB /* main.swift */,
+				8D20D6632D1EDC2100A790FB /* Trees */,
+				8D20D64A2D1BBAAA00A790FB /* Linked List */,
+				8D20D63D2D1A82C100A790FB /* Sliding Window */,
+				8D20D62C2D18112600A790FB /* Binary Search */,
 				8D20D3E92D0F1A9F00A790FB /* Stacks */,
 				8D20D27A2D0CEEA600A790FB /* Two Pointers */,
 				8D20D2402D0ABAA500A790FB /* Array & Hashing */,
@@ -94,6 +118,10 @@
 				8D20D2402D0ABAA500A790FB /* Array & Hashing */,
 				8D20D27A2D0CEEA600A790FB /* Two Pointers */,
 				8D20D3E92D0F1A9F00A790FB /* Stacks */,
+				8D20D62C2D18112600A790FB /* Binary Search */,
+				8D20D63D2D1A82C100A790FB /* Sliding Window */,
+				8D20D64A2D1BBAAA00A790FB /* Linked List */,
+				8D20D6632D1EDC2100A790FB /* Trees */,
 			);
 			name = "Neetcode-Swift";
 			packageProductDependencies = (
