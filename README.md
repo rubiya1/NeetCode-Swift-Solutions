@@ -34,7 +34,7 @@ The problems are grouped based on NeetCode's roadmap of structured patterns. Bel
 Each topic folder contains Swift solutions to its respective problems, named and numbered for clarity.
 
 ```
-.
+NeetCode-Swift
 ├── Arrays & Hashing
 │   ├── 1. ContainsDuplicate.swift
 │   ├── 2. ValidAnagram.swift
@@ -54,52 +54,169 @@ Each topic folder contains Swift solutions to its respective problems, named and
 │   └── 5. TrappingRainWater.swift
 │
 ├── Stack
-│   └── (To be added)
+│   ├── 1. ValidParentheses.swift
+│   ├── 2. MinStack.swift
+│   ├── 3. EvaluateReversePolishNotation.swift
+│   ├── 4. GenerateParentheses.swift
+│   ├── 5. DailyTemperatures.swift
+│   ├── 6. CarFleet.swift
+│   └── 7. LargestRectangleInHistogram.swift
 │
 ├── Binary Search
-│   └── (To be added)
+│   ├── 1. BinarySearch.swift
+│   ├── 2. Search2DMatrix.swift
+│   ├── 3. KokoEatingBananas.swift
+│   ├── 4. FindMinimumInRotatedSortedArray.swift
+│   ├── 5. TimeBasedKeyValueStore.swift
+│   └── 6. MedianOfTwoSortedArrays.swift
 │
 ├── Sliding Window
-│   └── (To be added)
+│   ├── 1. BestTimeToBuyAndSellStock.swift
+│   ├── 2. LongestSubstringWithoutRepeatingCharacters.swift
+│   ├── 3. LongestRepeatingCharacterReplacement.swift
+│   ├── 4. PermutationInString.swift
+│   ├── 5. MinimumWindowSubstring.swift
+│   ├── 6. SlidingWindowMaximum.swift
+│   ├── 7. MergeKSortedLists.swift
+│   └── 8. ReverseNodesInKGroup.swift
 │
 ├── Linked List
-│   └── (To be added)
+│   ├── 1. ReverseLinkedList.swift
+│   ├── 2. MergeTwoSortedLists.swift
+│   ├── 3. ReorderList.swift
+│   ├── 4. RemoveNthNodeFromEndOfList.swift
+│   ├── 5. CopyLinkedListWithRandomPointer.swift
+│   ├── 6. AddTwoNumbers.swift
+│   ├── 7. LinkedListCycleDetection.swift
+│   ├── 8. LinkedListCycle.swift
+│   ├── 9. FindDuplicateNumber.swift
+│   └── 10. LRUCache.swift
 │
 ├── Trees
-│   └── (To be added)
+│   ├── 1. InvertBinaryTree.swift
+│   ├── 2. MaximumDepthOfBinaryTree.swift
+│   ├── 3. DiameterOfBinaryTree.swift
+│   ├── 4. BalancedBinaryTree.swift
+│   ├── 5. SameBinaryTree.swift
+│   ├── 6. SubtreeOfAnotherTree.swift
+│   ├── 7. LowestCommonAncestorInBinaryTree.swift
+│   ├── 8. BinaryTreeLevelOrderTraversal.swift
+│   ├── 9. BinaryTreeRightSideView.swift
+│   ├── 10. CountGoodNodesInBinaryTree.swift
+│   ├── 11. ValidateBinarySearchTree.swift
+│   ├── 12. KthSmallestElementInBST.swift
+│   ├── 13. ConstructBinaryTreeFromPreAndInorderTraversal.swift
+│   ├── 14. BinaryTreeMaximumPathSum.swift
+│   └── 15. SerializeAndDeserializeBinaryTree.swift
 │
 ├── Backtracking
-│   └── (To be added)
+│   ├── 1. Subsets.swift
+│   ├── 2. CombinationSum.swift
+│   ├── 3. Permutations.swift
+│   ├── 4. SubsetsII.swift
+│   ├── 5. WordSearch.swift
+│   ├── 6. PalindromePartitioning.swift
+│   ├── 7. LetterCombinationsOfPhoneNumber.swift
+│   └── 8. NQueens.swift
 │
 ├── Heap / Priority Queue
-│   └── (To be added)
+│   ├── 1. KthLargestElementInStream.swift
+│   ├── 2. LastStoneWeight.swift
+│   ├── 3. KClosestPointsToOrigin.swift
+│   ├── 4. KthLargestElementInArray.swift
+│   ├── 5. TaskScheduler.swift
+│   ├── 6. DesignTwitter.swift
+│   └── 7. FindMedianFromDataStream.swift
 │
 ├── Graphs
-│   └── (To be added)
+│   ├── 1. NumberOfIslands.swift
+│   ├── 2. MaxAreaOfIsland.swift
+│   ├── 3. CloneGraph.swift
+│   ├── 4. WallsAndGates.swift
+│   ├── 5. RottingOranges.swift
+│   ├── 6. PacificAtlanticWaterFlow.swift
+│   ├── 7. CourseScheduleI.swift
+│   ├── 8. CourseScheduleII.swift
+│   ├── 9. GraphValidTree.swift
+│   ├── 10. NumberOfConnectedComponents.swift
+│   ├── 11. RedundantConnection.swift
+│   └── 12. WordLadder.swift
 │
 ├── 1-D DP
-│   └── (To be added)
+│   ├── 1. ClimbingStairs.swift
+│   ├── 2. MinCostClimbingStairs.swift
+│   ├── 3. HouseRobber.swift
+│   ├── 4. HouseRobberII.swift
+│   ├── 5. PalindromicSubstrings.swift
+│   ├── 6. DecodeWays.swift
+│   ├── 7. CoinChange.swift
+│   ├── 8. MaximumProductSubarray.swift
+│   ├── 9. WordBreak.swift
+│   ├── 10. LongestIncreasingSubsequence.swift
+│   ├── 11. PartitionEqualSubsetSum.swift
+│   └── 12. LongestPalindromicSubstring.swift
 │
 ├── 2-D DP
-│   └── (To be added)
+│   ├── 1. UniquePaths.swift
+│   ├── 2. LongestCommonSubsequence.swift
+│   ├── 3. BestTimeToBuyAndSellStockWithCooldown.swift
+│   ├── 4. CoinChangeII.swift
+│   ├── 5. TargetSum.swift
+│   ├── 6. InterleavingString.swift
+│   ├── 7. LongestIncreasingPathInMatrix.swift
+│   ├── 8. DistinctSubsequences.swift
+│   ├── 9. EditDistance.swift
+│   ├── 10. BurstBalloons.swift
+│   └── 11. RegularExpressionMatching.swift
 │
 ├── Tries
-│   └── (To be added)
+│   ├── 1. ImplementTrie.swift
+│   └── 2. DesignAddAndSearchWordsDataStructure.swift
 │
 ├── Intervals
-│   └── (To be added)
+│   ├── 1. InsertInterval.swift
+│   ├── 2. MergeIntervals.swift
+│   ├── 3. NonOverlappingIntervals.swift
+│   ├── 4. MeetingRooms.swift
+│   ├── 5. MeetingRoomsII.swift
+│   └── 6. MinimumInterval.swift
 │
 ├── Greedy
-│   └── (To be added)
+│   ├── 1. MaximumSubarray.swift
+│   ├── 2. JumpGame.swift
+│   ├── 3. JumpGameII.swift
+│   ├── 4. GasStation.swift
+│   ├── 5. HandOfStraights.swift
+│   ├── 6. MergeTripletsToFormTargetTriplet.swift
+│   ├── 7. PartitionLabels.swift
+│   └── 8. ValidParenthesisString.swift
 │
 ├── Advanced Graphs
-│   └── (To be added)
+│   ├── 1. NetworkDelayTime.swift
+│   ├── 2. ReconstructItinerary.swift
+│   ├── 3. MinCostToConnectAllPoints.swift
+│   ├── 4. SwimInRisingWater.swift
+│   └── 5. CheapestFlightsWithinKStops.swift
 │
 ├── Bit Manipulation
-│   └── (To be added)
+│   ├── 1. SingleNumber.swift
+│   ├── 2. NumberOf1Bits.swift
+│   ├── 3. CountingBits.swift
+│   ├── 4. ReverseBits.swift
+│   ├── 5. MissingNumber.swift
+│   ├── 6. SumOfTwoIntegers.swift
+│   └── 7. ReverseInteger.swift
 │
 └── Math & Geometry
-    └── (To be added)
+    ├── 1. RotateImage.swift
+    ├── 2. SpiralMatrix.swift
+    ├── 3. SetMatrixZeroes.swift
+    ├── 4. HappyNumber.swift
+    ├── 5. PlusOne.swift
+    ├── 6. Pow(x,n).swift
+    ├── 7. MultiplyStrings.swift
+    └── 8. DetectSquares
+
 ```
 
 ---
