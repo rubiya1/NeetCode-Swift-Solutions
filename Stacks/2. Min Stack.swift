@@ -15,7 +15,7 @@ class MinStack {
         if stack.isEmpty {
             stack.append((val, val))
         } else {
-            var currentMin = min(val, stack.last!.1)
+            let currentMin = min(val, stack.last!.1)
             stack.append((val, currentMin))
         }
     }

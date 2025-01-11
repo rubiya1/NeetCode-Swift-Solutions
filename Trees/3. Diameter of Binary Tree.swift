@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 func maxDiameter(_ root: TreeNode?) -> Int {
     guard let root else { return 0 }
     var maxDepth = 0

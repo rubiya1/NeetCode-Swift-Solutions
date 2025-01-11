@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 func maxProfit(_ prices: [Int]) -> Int {
     var minPrice = prices.first!, maxProfit = 0
     for price in prices[1...] {
@@ -18,6 +17,3 @@ func maxProfit(_ prices: [Int]) -> Int {
     
     return maxProfit
 }
-
-
-//prices = [7,1,5,3,6,4]

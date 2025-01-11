@@ -7,9 +7,7 @@
 
 import Foundation
 
-
 class CodeS {
-    
     func serialize(_ root: TreeNode?) -> String {
         guard let root else { return "null" }
         return "\(root.val)," + "\(serialize(root.left))" + "," + "\(serialize(root.right))"

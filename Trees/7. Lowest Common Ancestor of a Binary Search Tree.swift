@@ -11,9 +11,7 @@ import Foundation
 func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode?  {
     guard let root else { return nil }
     
-    if root.val == p?.val || root.val == q?.val {
-        return root
-    }
+    if root.val == p?.val || root.val == q?.val { return root }
     
     if p!.val < root.val && q!.val < root.val {
         return lowestCommonAncestor(root.left, p, q)

@@ -27,6 +27,45 @@
 		8D20D2412D0ABAA500A790FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8D20D6B62D227B5A00A790FB /* Exceptions for "Graphs" folder in "Neetcode-Swift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. Number of Islands.swift",
+				"2. Max Area of Island.swift",
+				"3. Clone Graph.swift",
+				"4. Walls and Gates.swift",
+				"5. Rotting Oranges.swift",
+				"6. Pacific Atlantic Water Flow.swift",
+				"7. Course Schedule I .swift",
+				"8. Course Schedule II.swift",
+				"9. Graph Valid Tree.swift",
+				"10. Number of Connected Components.swift",
+				"11. Redundant Connection.swift",
+				"12. Word Ladder.swift",
+			);
+			target = 8D20D23D2D0ABAA500A790FB /* Neetcode-Swift */;
+		};
+		8D20D6D32D2425FF00A790FB /* Exceptions for "1-D DP" folder in "Neetcode-Swift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. Climbing Stairs.swift",
+				"2. Min Cost Climbing Stairs.swift",
+				"3. House Robber.swift",
+				"4. House Robber II.swift",
+				"5. Palindromic Substrings.swift",
+				"6. Decode Ways.swift",
+				"7. Coin Change.swift",
+				"8. Maximum Product Subarray.swift",
+				"9. Word Break.swift",
+				"10. Longest Increasing Subsequence.swift",
+				"11. Partition Equal Subset Sum.swift",
+				"12. Longest Palindromic Substring.swift",
+			);
+			target = 8D20D23D2D0ABAA500A790FB /* Neetcode-Swift */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8D20D2402D0ABAA500A790FB /* Array & Hashing */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -63,6 +102,67 @@
 			path = Trees;
 			sourceTree = "<group>";
 		};
+		8D20D69F2D2081AD00A790FB /* Backtracking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Backtracking;
+			sourceTree = "<group>";
+		};
+		8D20D6B32D227B3C00A790FB /* Graphs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8D20D6B62D227B5A00A790FB /* Exceptions for "Graphs" folder in "Neetcode-Swift" target */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		8D20D6D02D2424F000A790FB /* 1-D DP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8D20D6D32D2425FF00A790FB /* Exceptions for "1-D DP" folder in "Neetcode-Swift" target */,
+			);
+			path = "1-D DP";
+			sourceTree = "<group>";
+		};
+		8D20D6EE2D28436000A790FB /* 2-D DP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "2-D DP";
+			sourceTree = "<group>";
+		};
+		8D20D7072D2EA64900A790FB /* Advanced Graphs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Advanced Graphs";
+			sourceTree = "<group>";
+		};
+		8D20D7162D2F9FCE00A790FB /* Trie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Trie;
+			sourceTree = "<group>";
+		};
+		8D20D71D2D2FA71E00A790FB /* Bit Manipulation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Bit Manipulation";
+			sourceTree = "<group>";
+		};
+		8D20D7302D2FF73400A790FB /* Heap Priority Queue */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Heap Priority Queue";
+			sourceTree = "<group>";
+		};
+		8D20D73C2D30630A00A790FB /* Intervals */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Intervals;
+			sourceTree = "<group>";
+		};
+		8D20D73F2D30635C00A790FB /* Greedy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Greedy;
+			sourceTree = "<group>";
+		};
+		8D20D75F2D3196CC00A790FB /* Math & Geometry */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Math & Geometry";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +180,17 @@
 			isa = PBXGroup;
 			children = (
 				8D20D2412D0ABAA500A790FB /* main.swift */,
+				8D20D75F2D3196CC00A790FB /* Math & Geometry */,
+				8D20D73F2D30635C00A790FB /* Greedy */,
+				8D20D73C2D30630A00A790FB /* Intervals */,
+				8D20D7302D2FF73400A790FB /* Heap Priority Queue */,
+				8D20D71D2D2FA71E00A790FB /* Bit Manipulation */,
+				8D20D7162D2F9FCE00A790FB /* Trie */,
+				8D20D7072D2EA64900A790FB /* Advanced Graphs */,
+				8D20D6EE2D28436000A790FB /* 2-D DP */,
+				8D20D6D02D2424F000A790FB /* 1-D DP */,
+				8D20D6B32D227B3C00A790FB /* Graphs */,
+				8D20D69F2D2081AD00A790FB /* Backtracking */,
 				8D20D6632D1EDC2100A790FB /* Trees */,
 				8D20D64A2D1BBAAA00A790FB /* Linked List */,
 				8D20D63D2D1A82C100A790FB /* Sliding Window */,
@@ -122,6 +233,15 @@
 				8D20D63D2D1A82C100A790FB /* Sliding Window */,
 				8D20D64A2D1BBAAA00A790FB /* Linked List */,
 				8D20D6632D1EDC2100A790FB /* Trees */,
+				8D20D69F2D2081AD00A790FB /* Backtracking */,
+				8D20D6EE2D28436000A790FB /* 2-D DP */,
+				8D20D7072D2EA64900A790FB /* Advanced Graphs */,
+				8D20D7162D2F9FCE00A790FB /* Trie */,
+				8D20D71D2D2FA71E00A790FB /* Bit Manipulation */,
+				8D20D7302D2FF73400A790FB /* Heap Priority Queue */,
+				8D20D73C2D30630A00A790FB /* Intervals */,
+				8D20D73F2D30635C00A790FB /* Greedy */,
+				8D20D75F2D3196CC00A790FB /* Math & Geometry */,
 			);
 			name = "Neetcode-Swift";
 			packageProductDependencies = (

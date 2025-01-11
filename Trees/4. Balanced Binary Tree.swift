@@ -12,7 +12,7 @@ func isBalanced(_ root: TreeNode?) -> Bool {
     guard let root else { return true }
     
     func height(_ node: TreeNode?) -> Int {
-        guard let node else { return 0 }
+        guard node != nil else { return 0 }
         
         let leftHeight = height(root.left)
         let rightHeight = height(root.right)

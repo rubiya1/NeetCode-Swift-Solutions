@@ -14,18 +14,14 @@ func kthSmallestElementInBST(_ root: TreeNode?, _ k: Int) -> Int {
     var current = root
     
     while !stack.isEmpty || current != nil {
-        
         while let node = current {
             stack.append(node)
             current = node.left
         }
-        
         let node = stack.removeLast()
         count += 1
         
-        if count == k {
-            return node.val
-        }
+        if count == k { return node.val }
         
         current = node.right
     }

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 func maxPathSum(_ root: TreeNode?) -> Int {
     guard let root else { return 0 }
     var maxSum = 0

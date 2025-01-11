@@ -11,10 +11,14 @@ public class Node: Hashable {
     public var val: Int
     public var next: Node?
     public var random: Node?
+    public var neighbors: [Node?]
+
     public init(_ val: Int) {
         self.val = val
         self.next = nil
         self.random = nil
+        self.neighbors = []
+
     }
     
     public func hash(into hasher: inout Hasher) {

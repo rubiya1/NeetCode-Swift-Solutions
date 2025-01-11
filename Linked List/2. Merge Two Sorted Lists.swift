@@ -20,10 +20,8 @@ func mergeTwoSortedLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
             current?.next = l2
             l2 = l2?.next
         }
-        
         current = current?.next
     }
-    
     current?.next = l1 ?? l2
     
     return current
